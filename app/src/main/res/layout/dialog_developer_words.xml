@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开发者的话"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 内容区域 -->
+    <TextView
+        android:id="@+id/developerContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里将会显示开发者的话..."
+        android:textSize="16sp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- 确认按钮 -->
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="确定"
+        android:textSize="16sp" />
+
+</LinearLayout>

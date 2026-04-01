@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">敲木鱼</string>
+    <string name="tap_button">敲击木鱼</string>
+    <string name="merit_count">功德：%d</string>
+    <string name="settings">设置</string>
+    <string name="sound_volume">音效音量</string>
+    <string name="vibration_feedback">振动反馈</string>
+    <string name="developer_words">开发者的话</string>
+    <string name="about_app">关于应用</string>
+    <string name="developer_words_title">开发者的话</string>
+    <string name="developer_words_content">这里将会显示开发者的话...</string>
+    <string name="ok">确定</string>
+</resources>
